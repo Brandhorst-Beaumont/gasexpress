@@ -1,0 +1,215 @@
+{
+  "usuarios": [
+    {
+      "id": "admin01",
+      "nombre": "Eleidys Liendo",
+      "email": "admin@gasexpress.com",
+      "password": "logist99",
+      "cedula": "30961231",
+      "telefono": "0412-3495119",
+      "direccion": "Base Sucre",
+      "rol": "admin"
+    },
+    {
+      "id": "1770522130823",
+      "nombre": "Jonathan Serrano",
+      "email": "jhonagamez185@gmail.com",
+      "password": "123456",
+      "cedula": "31680085",
+      "telefono": "0412-8939157",
+      "direccion": "Los Hornos, Palo Negro",
+      "rol": "usuario"
+    },
+    {
+      "id": "1770566536859",
+      "nombre": "Luis Ortega",
+      "email": "ofangelito09@gmail.com",
+      "password": "123456",
+      "cedula": "30595986",
+      "telefono": "0412-8956558",
+      "direccion": "Urb. Los Tacariguas, Palo Negro",
+      "rol": "usuario"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "1770766208930",
+      "clienteId": "1770566536859",
+      "nombreCliente": "Luis Ortega",
+      "email": "ofangelito09@gmail.com",
+      "telefono": "0412-8956558",
+      "fecha": "10/2/2026, 7:30:08 p.m.",
+      "estado": "Pendiente",
+      "statusAprobacion": "Aprobado",
+      "statusGlobal": "en_ruta",
+      "conductor": "Brandhorst Beaumont",
+      "tipo": "10kg",
+      "cantidad": 1,
+      "direccion": "Urb. Los Tacariguas, Palo Negro",
+      "referencia": "",
+      "latitudDestino": 10.165613520439543,
+      "longitudDestino": -67.54827035475056,
+      "telefonoConductor": "0424-3190706",
+      "latitudConductor": 10.255665697008729,
+      "longitudConductor": -67.64080366349411
+    },
+    {
+      "id": "1770766303700",
+      "clienteId": "1770522130823",
+      "nombreCliente": "Jonathan Serrano",
+      "email": "jhonagamez185@gmail.com",
+      "telefono": "0412-8939157",
+      "fecha": "10/2/2026, 7:31:43 p.m.",
+      "estado": "Pendiente",
+      "statusAprobacion": "Aprobado",
+      "statusGlobal": "cargando",
+      "conductor": "Brandhorst Beaumont",
+      "tipo": "18kg",
+      "cantidad": "5",
+      "direccion": "Los Hornos, Palo Negro",
+      "referencia": "Frente a la urbanización",
+      "latitudDestino": null,
+      "longitudDestino": null,
+      "telefonoConductor": "0424-3190706"
+    },
+    {
+      "id": "1770771212259",
+      "clienteId": "1770522130823",
+      "nombreCliente": "Jonathan Serrano",
+      "email": "jhonagamez185@gmail.com",
+      "telefono": "0412-8939157",
+      "fecha": "10/2/2026, 20:53:32",
+      "estado": "Pendiente",
+      "statusAprobacion": "Pendiente",
+      "statusGlobal": "pendiente",
+      "conductor": "",
+      "tipo": "43kg",
+      "cantidad": 1,
+      "direccion": "Los Hornos, Palo Negro",
+      "referencia": "En mi casa",
+      "latitudDestino": null,
+      "longitudDestino": null
+    },
+    {
+      "id": "1770771287953",
+      "clienteId": "1770522130823",
+      "nombreCliente": "Jonathan Serrano",
+      "email": "jhonagamez185@gmail.com",
+      "telefono": "0412-8939157",
+      "fecha": "10/2/2026, 20:54:47",
+      "estado": "Pendiente",
+      "statusAprobacion": "Aprobado",
+      "statusGlobal": "entregado",
+      "conductor": "Brandhorst Beaumont",
+      "modalidad": "llenado",
+      "tipo": "18kg (BOM-12548)",
+      "cantidad": 1,
+      "bombonas": [
+        {
+          "id": "1770766380250",
+          "serial": "BOM-12548",
+          "tipo": "18kg"
+        }
+      ],
+      "direccion": "Los Hornos, Palo Negro",
+      "referencia": "",
+      "latitudDestino": 10.25723908029067,
+      "longitudDestino": -67.64904499053956,
+      "telefonoConductor": "0424-3190706"
+    },
+    {
+      "id": "1770775431645",
+      "clienteId": "1770522130823",
+      "nombreCliente": "Jonathan Serrano",
+      "email": "jhonagamez185@gmail.com",
+      "telefono": "0412-8939157",
+      "fecha": "10/2/2026, 22:03:51",
+      "estado": "Pendiente",
+      "statusAprobacion": "Aprobado",
+      "statusGlobal": "entregado",
+      "conductor": "Brandhorst Beaumont",
+      "modalidad": "llenado",
+      "tipo": "18kg (BOM-1235)",
+      "cantidad": 1,
+      "bombonas": [
+        {
+          "id": "1770771617436",
+          "serial": "BOM-1235",
+          "tipo": "18kg"
+        }
+      ],
+      "direccion": "Pasaje Junin, Maracay, Estado Aragua",
+      "referencia": "",
+      "latitudDestino": 10.248032919829418,
+      "longitudDestino": -67.62110710144044,
+      "telefonoConductor": "0424-3190706",
+      "latitudConductor": 10.178436,
+      "longitudConductor": -67.515602
+    },
+    {
+      "id": "1770776042450",
+      "clienteId": "1770522130823",
+      "nombreCliente": "Jonathan Serrano",
+      "email": "jhonagamez185@gmail.com",
+      "telefono": "0412-8939157",
+      "fecha": "10/2/2026, 22:14:02",
+      "estado": "Pendiente",
+      "statusAprobacion": "Pendiente",
+      "statusGlobal": "pendiente",
+      "conductor": "",
+      "tipo": "10kg",
+      "cantidad": 1,
+      "direccion": "Avenida Bermúdez, Maracay, Estado Aragua",
+      "referencia": "",
+      "latitudDestino": 10.238446404294146,
+      "longitudDestino": -67.59529352188112
+    }
+  ],
+  "bombonas": [
+    {
+      "id": "1770766380250",
+      "usuarioId": "1770522130823",
+      "nombreUsuario": "Jonathan Serrano",
+      "tipo": "18kg",
+      "serial": "BOM-12548",
+      "fecha": "10/2/2026",
+      "estado": "activa"
+    },
+    {
+      "id": "1770775619190",
+      "usuarioId": "1770522130823",
+      "nombreUsuario": "Jonathan Serrano",
+      "tipo": "10kg",
+      "serial": "BOM-2313",
+      "fecha": "10/2/2026",
+      "estado": "activa"
+    }
+  ],
+  "reclamos": [
+    {
+      "id": "rec-132244",
+      "usuarioId": "1770522130823",
+      "nombreUsuario": "Jonathan Serrano",
+      "asunto": "Mala atención",
+      "pedidoId": "1770771287953",
+      "descripcion": "No hubo buena comunicación",
+      "fecha": "10/2/2026",
+      "estado": "En Revisión",
+      "respuestaAdmin": ""
+    }
+  ],
+  "conductores": [
+    {
+      "id": "1770565550526",
+      "estado": "Disponible",
+      "nombre": "Brandhorst Beaumont",
+      "email": "brandhorsturiel1918@gmail.com",
+      "telefono": "0424-3190706",
+      "cedula": "28387689",
+      "placa": "asd-123",
+      "modelo": "MD Lechuza",
+      "password": "123456",
+      "rol": "conductor"
+    }
+  ]
+}
